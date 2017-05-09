@@ -1,0 +1,16 @@
+{
+  "generator-ng-fullstack": {
+    "appName": "project-timeline",
+    "username": "kenny",
+    "userEmail": "kchung@retair.com",
+    "stack": "client",
+    "repoHostUrl": "github.com",
+    "userNameSpace": "kenny",
+    "client": "ng1",
+    "stylePreprocessor": "none",
+    "server": "",
+    "secure": false,
+    "testsSeparated": true,
+    "cordova": false
+  }
+}

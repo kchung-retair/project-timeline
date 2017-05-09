@@ -1,0 +1,50 @@
+<!doctype html>
+<html ng-app="project-timeline">
+  <head>
+    
+    <base href="/"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description" content="My awesome application">
+    <meta name="keywords" content="Todo,myAwesomeApp,App">
+    <meta name="author" content="Author">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+
+    <title>Project Timeline</title>
+    <link rel="shortcut icon" type="image/ico" href="./favicon.png"/>
+
+    <link type="text/css" rel="stylesheet" href="./bower_components/fontawesome/css/font-awesome.min.css?rev=@@hash"/>
+
+    <link type="text/css" rel="stylesheet" href="./todo/styles/todo.css?rev=@@hash"/>
+    <link type="text/css" rel="stylesheet" href="./bower_components/vis/dist/vis.css?rev=@@hash"/>
+  </head>
+
+  <body>
+    <div ng-view>
+
+
+
+    </div>
+
+    <script type="text/javascript" src="./bower_components/jquery/dist/jquery.js?rev=@@hash"></script>
+    <script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.js?rev=@@hash"></script>
+    <script type="text/javascript" src="./bower_components/angular/angular.js?rev=@@hash"></script>
+    <script type="text/javascript" src="./bower_components/angular-route/angular-route.js?rev=@@hash"></script>
+    <script type="text/javascript" src="./bower_components/angular-resource/angular-resource.js?rev=@@hash"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/ngstorage/0.3.6/ngStorage.min.js"></script>
+    <script type="text/javascript" src="./bower_components/papa-parse/papaparse.min.js?rev=@@hash"></script>
+    <script type="text/javascript" src="./bower_components/lodash/lodash.js?rev=@@hash"></script>
+    <script type="text/javascript" src="./bower_components/vis/dist/vis.js?rev=@@hash"></script>
+    <script type="text/javascript" src="./app.js?rev=@@hash"></script>
+    <script type="text/javascript" src="./app.config.js?rev=@@hash"></script>
+    <script type="text/javascript" src="./app.route.js?rev=@@hash"></script>
+    
+    <script type="text/javascript" src="./todo/directives/parseCsvDir.js?rev=@@hash"></script>
+    <script type="text/javascript" src="./todo/models/todo-model.js?rev=@@hash"></script>
+    <script type="text/javascript" src="./todo/services/todo-dao.js?rev=@@hash"></script>
+    <script type="text/javascript" src="./todo/resources/todo-resource.js?rev=@@hash"></script>
+    <script type="text/javascript" src="./todo/controllers/todo-controller.js?rev=@@hash"></script>
+    <script type="text/javascript" src="./todo/controllers/dashboard-controller.js?rev=@@hash"></script>
+
+  </body>
+</html>

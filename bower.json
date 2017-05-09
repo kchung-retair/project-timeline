@@ -1,0 +1,40 @@
+{
+  "name": "project-timeline",
+  "main": "project-timeline.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kenny/project-timeline",
+  "authors": [
+    "kenny kchung@retair.com"
+  ],
+  "description": "desc",
+  "keywords": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    ".idea",
+    ".gitignore",
+    "node_modules",
+    "tests",
+    "LICENSE",
+    "bower_components",
+    "coverage",
+    "gulpfile.js",
+    "package.json",
+    "*.conf.js"
+  ],
+  "dependencies": {
+    "jquery": "~3.1.1",
+    "angular": "~1.6.x",
+    "angular-messages": "~1.6.x",
+    "angular-route": "~1.6.x",
+    "angular-resource": "~1.6.x",
+    "bootstrap": "3.3.7",
+    "fontawesome": "~4.7.0",
+    "papa-parse": "4.1.1",
+    "lodash": " 4.17.4",
+    "vis": "^4.19.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.6.x"
+  }
+}

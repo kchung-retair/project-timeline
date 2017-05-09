@@ -1,0 +1,70 @@
+.gray {
+  background-color: black!important;
+}
+/*
+.gray a {
+  color: black!important;
+}*/
+
+.yellow {
+  background-color: #FDE44D!important;
+}
+
+
+.yellow a {
+  color: black!important;
+}
+
+.purple {
+  background-color: #757DE1!important;
+}
+.green {
+  background-color: #70A300!important;
+}
+
+.orange {
+  background-color: #F49A00!important;
+}
+
+.blue {
+  background-color: dodgerblue!important;
+}
+
+.red {
+  background-color: #F64F4D!important;
+}
+
+.vis-item .vis-item-content {
+  padding: 0px!important;
+}
+
+.vis-item .vis-item-content a {
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+
+/* alternating column backgrounds */
+
+.vis-time-axis .vis-grid.vis-odd {
+  background: #f5f5f5;
+}
+
+
+/* gray background in weekends, white text color */
+
+.vis-time-axis .vis-grid.vis-saturday,
+.vis-time-axis .vis-grid.vis-sunday {
+  background: #EBF0F0;
+}
+
+.vis-time-axis .vis-text.vis-saturday,
+.vis-time-axis .vis-text.vis-sunday {
+  color: white;
+}
